@@ -14,24 +14,28 @@ a{
   text-decoration: none;
 }
 
-/*== main ==*/
-#main{
+/*== navigation ==*/
+#navi{
+  width: 100%;
+}
+.navi-bar{
+  position: fixed;
   width: 100%;
   display: flex;
   flex-direction: column;
-  min-height: 400px;
+  min-height: 60px;
   background-color: #131313;
 }
 
-/*== navigation ==*/
 .navigation{
   display: flex;
   justify-content:  space-between;
   align-items: center;
   max-width: 1200px;
   width: 90%;
-  margin: 0px auto;
+  margin: auto;
   padding: 30px 0px;
+  
 }
 
 /*== logo ==*/
@@ -39,8 +43,8 @@ a{
   font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: 700;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -75,6 +79,15 @@ a{
   margin-left: 0px;
 }
 
+/*== main ==*/
+#main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  background-color: #131313;
+}
+
 /*== main-content ==*/
 .main-content{
   display: flex;
@@ -82,6 +95,7 @@ a{
   justify-content: center;
   align-items: center;
   margin: 50px auto;
+  margin-top: 130px;
   max-width: 500px;
   text-align: center;
 }
@@ -119,7 +133,8 @@ a{
 #about-me{
   max-width: 800px;
   width: 90%;
-  margin: 50px auto;
+  margin: 1px auto;
+  padding-top: 130px;
 }
 #about-me strong{
   text-transform: uppercase;
@@ -174,7 +189,7 @@ a{
   width: 100%;
   margin: 50px auto 0px auto;
   background-color: #161616;
-  padding: 50px 0px;
+  padding: 130px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -334,8 +349,8 @@ footer .footer-log{
   display: none;
 }
 
-/*== making responsve ==*/
-@media(max-width:1000px){
+/* == making responsve == */
+/* @media(max-width:1000px){
   .menu-icon{
     display: block;
   }
@@ -422,7 +437,7 @@ footer .footer-log{
   .blog-box-container{
     grid-template-columns: 1fr;
   }
-}
+} */
 
 /* @media(max-width:850px){
   .blog-box-container{
@@ -430,7 +445,7 @@ footer .footer-log{
   }
 } */
 
-@media(max-width:724px){
+/* @media(max-width:724px){
   .main-content h1{
     font-size: 1.8rem;
     line-height: 2.2rem;
@@ -459,5 +474,5 @@ footer .footer-log{
   .footer-log{
     font-size: 0.9rem !important;
   }
-}
+} */
 
