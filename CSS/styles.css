@@ -53,7 +53,6 @@ a{
   display: flex;
   align-items: center;
 }
-
 .menu li a{
   margin: 0px 30px;
   color: #c9c9c9;
@@ -85,7 +84,6 @@ a{
   max-width: 500px;
   text-align: center;
 }
-
 .main-img{
   width: 150px;
   height: 150px;
@@ -94,28 +92,77 @@ a{
   border-radius: 50%;
   margin-bottom: 10px;
 }
-
 .main-content span{
   color: #8294b4;
   font-weight: 400;
   font-size: 0.9rem;
 }
-
 .main-content strong{
   color: #f9f9f9;
   font-size: 1.6ren;
   font-weight: 700;
 }
-
 .main-content h1{
   font-size: 3rem;
   color: #ffffff;
   line-height: 3.4rem;
   margin-top: 20px;
 }
-
 .main-content p{
   color: #5e5e5e;
   margin-top: 20px;
   letter-spacing: 0.3px;
+}
+
+/*== about-me ==*/
+#about-me{
+  max-width: 800px;
+  width: 90%;
+  margin: 50px auto;
+}
+#about-me strong{
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color:  #8d94b4;
+}
+#about-me h2{
+  font-size: 4rem;
+  line-height: 4.4rem;
+  color: #272727;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.about-text{
+  margin-top: 30px;
+  max-width: 85%;
+  margin-left: auto;
+}
+.about-text h3{
+  font-size: 3rem;
+  line-height: 3.4rem;
+  color: #272727;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.about-text p{
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  line-height: 1.4rem;
+  letter-spacing: 0.3px;
+}
+.about-text a{
+  width: 180px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8d94b43b;
+  color: #1a1a1a;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.about-text a i{
+  margin: 10px;
 }
