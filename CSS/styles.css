@@ -38,8 +38,8 @@ a{
   font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: 700;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -304,3 +304,36 @@ a{
 .contact a i{
   margin-left: 10px;
 }
+
+/*== footer ==*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 950px;
+  width: 100%;
+  margin: 70px auto 0px auto;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #d8d8d8;
+}
+footer span{
+  color: #313131;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+footer .footer-log{
+  width: 30px;
+  height: 30px;
+}
+
+
+/* .main-img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+} */
