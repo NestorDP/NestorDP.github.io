@@ -38,14 +38,14 @@ a{
   font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: 700;
-  width: 40px;
-  height: 40px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
-  color: 1a1a1a;
+  background-color: #BFC9CA;
+  color: #1a1a1a;
 }
 
 /*== menu ==*/
