@@ -329,12 +329,135 @@ footer .footer-log{
   height: 30px;
 }
 
+.menu-icon,
+.menu-btn{
+  display: none;
+}
 
-/* .main-img{
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 50%;
-  margin-bottom: 10px;
+/*== making responsve ==*/
+@media(max-width:1000px){
+  .menu-icon{
+    display: block;
+  }
+  .navigation{
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    z-index: 103;
+  }
+  .navigation .menu{
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    background-color: #131313;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 2px 30px 30px rgba(0,0,0,0.05);
+  }
+  .navigation .menu li{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .navigation .menu li a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 20px;
+    border-bottom: 1px solid #161616;
+  }
+  .logo{
+    margin-left: 20px;
+    margin-right: auto;
+  }
+  .navigation .menu-icon{
+    cursor: pointer;
+    float: right;
+    padding: 10px 0px;
+    position: relative;
+    user-select: none;
+    z-index: 106;
+  }
+  .navigation .menu-icon .nav-icon{
+    background-color: #ffffff;
+    display: block;
+    position: relative;
+    height: 2px;
+    width: 25px;
+    transition: background 0.2s ease-out; 
+  }
+  .navigation .menu-icon .nav-icon::before,
+  .navigation .menu-icon .nav-icon::after{
+    background-color: #ffffff;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all ease-out 0.2s;
+  }
+  .navigation .menu-icon .nav-icon::before{
+    top: 9px;
+  }
+  .navigation .menu-icon .nav-icon::after{
+    top: -9px;
+  }
+  .navigation .menu-btn:checked ~ .menu-icon .nav-icon{
+    background-color: transparent;
+  } 
+  .navigation .menu-btn:checked ~ .menu-icon .nav-icon::before{
+    transform: rotate(-45deg);
+    top: 0px;
+  }
+  .navigation .menu-btn:checked ~ .menu-icon .nav-icon::after{
+    transform: rotate(45deg);
+    top: 0px;
+  }
+  .navigation .menu-btn:checked ~ .menu{
+    display: block;
+  }
+  .blog-box-container{
+    grid-template-columns: 1fr;
+  }
+}
+
+/* @media(max-width:850px){
+  .blog-box-container{
+    grid-template-columns: 1fr;
+  }
 } */
+
+@media(max-width:724px){
+  .main-content h1{
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    max-width: 80%;
+    letter-spacing: 0.03px;
+  }
+  .main-content p{
+    max-width: 90%;
+  }
+  #about-me h2{
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+  .about-text h3{
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+  .blog-heading h2{
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+  .contact h3{
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .footer-log{
+    font-size: 0.9rem !important;
+  }
+}
+
