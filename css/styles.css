@@ -98,12 +98,12 @@ a{
   align-items: center;
   margin: 50px auto;
   margin-top: 130px;
-  max-width: 500px;
+  max-width: 600px;
   text-align: center;
 }
 .main-img{
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   object-fit: cover;
   object-position: center;
   border-radius: 50%;
@@ -115,15 +115,15 @@ a{
   font-size: 0.9rem;
 }
 .main-content strong{
-  color: #f9f9f9;
-  font-size: 1.6ren;
+  color: #f1f1f1;
+  font-size: 1.7rem;
   font-weight: 700;
+  margin-top: 20px;
 }
 .main-content h1{
   font-size: 3rem;
   color: #ffffff;
   line-height: 3.4rem;
-  margin-top: 20px;
 }
 .main-content p{
   color: #5e5e5e;
@@ -435,6 +435,12 @@ footer .footer-log{
   }
   .navigation .menu-btn:checked ~ .menu{
     display: block;
+  }
+  .nav-social{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .blog-box-container{
     grid-template-columns: 1fr;
